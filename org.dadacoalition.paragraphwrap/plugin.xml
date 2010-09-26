@@ -20,6 +20,14 @@
       <handler
             commandId="org.dadacoalition.paragraphwrap.commands.wrap"
             class="org.dadacoalition.paragraphwrap.handlers.WrapParagraph">
+         <enabledWhen>
+            <with
+                  variable="activePart">
+               <instanceof
+                     value="org.eclipse.ui.editors.text.TextEditor">
+               </instanceof>
+            </with>
+         </enabledWhen>
       </handler>
    </extension>
    <extension
@@ -41,6 +49,15 @@
                icon="icons/wrap.gif"
                id="org.dadacoalition.paragraphwrap.wrap"
                label="Wrap paragraph">
+            <visibleWhen
+                  checkEnabled="false">
+               <with
+                     variable="activePart">
+                  <instanceof
+                        value="org.eclipse.ui.editors.text.TextEditor">
+                  </instanceof>
+               </with>
+            </visibleWhen>
          </command>
       </menuContribution>
       <menuContribution
