@@ -1,0 +1,7 @@
+== Paragraphwrap ==
+
+Paragraphwrap is an Eclispe plugin that implements a command for wrapping long
+lines.
+
+The code is hosted at Github while the issue list is currently hosted as
+Eclipselabs (http://code.google.com/a/eclipselabs.org/p/paragraphwrap/)
