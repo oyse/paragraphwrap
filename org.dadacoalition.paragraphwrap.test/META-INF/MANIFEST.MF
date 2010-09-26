@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ParagraphwrapTest
+Bundle-SymbolicName: org.dadacoalition.paragraphwrap.test
+Bundle-Version: 1.0.0
+Bundle-Activator: org.dadacoalition.paragraphwrap.test.Activator
+Require-Bundle: org.dadacoalition.paragraphwrap;bundle-version="0.0.1",
+ org.junit4;bundle-version="4.8.1",
+ org.junit,
+ org.eclipse.ui.workbench,
+ org.eclipse.osgi,
+ org.eclipse.core.runtime;bundle-version="3.6.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

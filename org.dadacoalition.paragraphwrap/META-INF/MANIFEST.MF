@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Paragraphwrap
+Bundle-SymbolicName: org.dadacoalition.paragraphwrap;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Activator: org.dadacoalition.paragraphwrap.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.jface.text,
+ org.eclipse.ui.editors.text,
+ org.eclipse.ui.texteditor
+Bundle-ActivationPolicy: lazy
+Export-Package: org.dadacoalition.paragraphwrap,
+ org.dadacoalition.paragraphwrap.handlers,
+ org.dadacoalition.paragraphwrap.preferences,
+ org.dadacoalition.paragraphwrap.wrapper

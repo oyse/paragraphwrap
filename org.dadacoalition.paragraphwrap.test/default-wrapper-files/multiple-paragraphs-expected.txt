@@ -1,0 +1,9 @@
+Several paragraphs are selected that
+will be wrapped together.
+
+Each paragraphs should be wrapped
+together and the blank lines should be
+kept as they are without any changes
+
+This is the third paragraph to be
+wrapped.
