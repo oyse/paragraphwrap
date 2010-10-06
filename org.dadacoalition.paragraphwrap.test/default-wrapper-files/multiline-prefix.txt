@@ -1,0 +1,3 @@
+    -- This is multiple lines that have prefixes.
+    -- The prefix should be kept, but the prefix text
+    -- should not be repeated.

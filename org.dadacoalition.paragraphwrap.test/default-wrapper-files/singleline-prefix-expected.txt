@@ -1,0 +1,3 @@
+   # This is a single line with a
+   # prefix. The prefix should be kept
+   # on all lines.

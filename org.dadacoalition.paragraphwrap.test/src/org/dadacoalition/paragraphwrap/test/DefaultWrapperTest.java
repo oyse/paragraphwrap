@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import org.dadacoalition.paragraphwrap.ParagraphWrapException;
 import org.dadacoalition.paragraphwrap.wrapper.DefaultWrapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,7 +40,9 @@ public class DefaultWrapperTest {
                 "singleline-wrap",
                 "multiline-no-longlines",
                 "multiline-wrap",
-                "multiple-paragraphs"
+                "multiple-paragraphs",
+                "singleline-prefix",
+                "multiline-prefix",
         };
 
         Collection<Object[]> testCases = new ArrayList<Object[]>();
@@ -59,7 +62,7 @@ public class DefaultWrapperTest {
     }
     
     @Test
-    public void checkEquality(){
+    public void checkEquality() throws ParagraphWrapException{
         
         String result = wrapper.wrapText(this.textToWrap, "\n");
         
